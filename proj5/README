@@ -1,0 +1,17 @@
+part 1
+
+The procedure of 6.1 is to transmit 0 to 9 repeatedly over the uart with a delay in between, the way to do this is to make an in function where you att ‘0’ to the digit you want since that’s the equivalent ascii value. 
+
+
+part 2
+
+rocedure requires us to print a string and a 16 unsigned integer. This is accomplished by reducing the number to each its individual digits and transmitting them through uart, just the same as a string break each individual string into its characters and printing each character.
+
+part 3
+
+we must use the aclk we do this by configuring  UCA1MCTLW =  UCBRS1 | UCBRS2| UCBRS3| UCBRS5 | UCBRS6| UCBRS7; and configuring teratum to 4800 baud as given in the family user's guide
+
+
+part 4
+
+In this we must manipulate specific strings and characters and the lights on the controller depending on the inputs such that if a computer input is pressed then the controller does something and vice versa; we accomplish this by making “states”  and deleting and rewriting sections of the screens depending on the states.
