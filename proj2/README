@@ -1,0 +1,16 @@
+Part 1
+make the led turn on when pressing a button. This was accomplished by a relatively low logic function where it says if the program detects that you press the button then turn led on.
+
+
+Part 2
+
+ compound of the first part where the goal is to have both turned on simultaneously,  very similar to the other one where where instead of checking one button if its on we check both and turn the led on accordingly
+
+Part 3
+
+ achieve the goal of having one led on at a time only. So we must add code where it checks to see if the other led is on if it's on then the led isn't turned if it's off then it's allowed to turn on, Being on implies that the button is being pressed.
+ 
+ 
+ Part 4
+ 
+ Similar to the last part we must check what the other led is doing, but we must add another safety measure that says if both buttons are pressed then everything shuts off and for it to restart being used then we must let go of both buttons. 
