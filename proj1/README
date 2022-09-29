@@ -1,0 +1,7 @@
+PART 1
+The goal was two flash two leds simultaneously the way to accomplish is mask the greenbit to initialize it to the board. Then to both have them blink one code in P1OUT ^= redLED; P9OUT ^= greenLED; back to back. Technically it's not simultaneous since in C the actions happen from up down but to us humans it happens so fast it essentially simultaneously.
+
+There are two approaches to this specification, as given in the lab report. The first one just allows you to have a big number inside the for loop to do that loop far longer. The first solution involvels initializing volatile uint32_t i;// unsigned int 32-bit type so that which basically allows us to use a 32-bit number to input into the for loop. The last third solution is to use the function _delay_cycles(1000); which counts the cpu cycles. 
+
+PART 2-3
+ implement a more recursive like implementation of the blink so we don't have a bunch of lines that are essentially the same. This was accomplished by making a loop saying for(x) where x is the amount of times you want the blink to happen. Then figuring out the delay so that it went from fast to slow to slower simultaneously this was just accomplished by alternating the POUTS with delays in between.
