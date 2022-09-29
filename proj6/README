@@ -1,0 +1,17 @@
+I2C Transmission
+
+
+
+part 1
+
+Make the terminal display the Manufacturer ID and Device ID registers infinitely.
+
+part 2
+
+
+Make the terminal display the lux light sensor reading along with a counter infinitely. 
+
+
+part 3
+
+Make an application that checks the light sensor every minute and if the lux changes by 10 either less or more than that become the new base and the new uperr or lower bound is calculated from it. 
