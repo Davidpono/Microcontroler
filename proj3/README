@@ -1,0 +1,11 @@
+Part 1
+
+The Goal of this design was to learn to use continuous mode and make the red led blink every 2 seconds as 64k / 32k = 2 seconds. 
+
+Part 2
+
+The goal here is use the up mode and find the exact taccr0 that will give a 1 second delay.
+
+Part 3
+
+ We have to use both of the first two parts to solve this. We must use a timer to start when the button is pressed and when you release then the timer stops and that time will be our tacro and the led  turns on for the amount of tacro. The first part a continuous mode should be used since we need to extract time and for the amount of time the red led is on we must use up mode since we know how much time red led should be on. 
