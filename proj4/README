@@ -1,0 +1,14 @@
+part 1 
+
+Make a timer based interrupt that uses the crystal time in continuous mode, using the flag as a breakpoint. 
+
+part 2, 3,4
+
+The goal here is to make a up mode based interrupt that archives 1 second .5 seconds and .1 seconds intervals .
+
+part 5
+
+n this part of the lab we must be able to call interrupts based on pressing the button such that when a button is pressed and the flag is detected the button turns on.
+
+part 6 - 7
+Low-Power Modes
